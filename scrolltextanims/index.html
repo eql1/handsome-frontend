@@ -42,10 +42,10 @@
         const bg = char.dataset.bgColor;
         const fg = char.dataset.fgColor;
 
-        const text = new SplitType(char, { types: "chars" }); // todo: try also words in types
+        const text = new SplitType(char, { types: "words" }); // todo: try also words in types
 
         gsap.fromTo(
-          text.chars,
+          text.words,
           {
             color: bg,
           },
