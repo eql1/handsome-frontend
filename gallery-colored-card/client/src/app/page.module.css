@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main div {
+  width: 100%;
+  border-top: 1px solid black;
+  position: relative;
+  padding-left: 2vw;
+  margin-bottom: -2vw;
+  background-color: white;
+}
+
+.main div p {
+  font-size: 5vw;
+  margin: 0px;
+  text-transform: uppercase;
+  pointer-events: none;
+}
