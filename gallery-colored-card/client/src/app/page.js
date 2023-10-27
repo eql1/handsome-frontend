@@ -43,11 +43,11 @@ const projects = [
 
 export default function Home() {
   const handleMouseEnter = (e, color) => {
-    gsap.to(e.target, { backgroundColor: color, top: "-2vw", duration: 0.3 });
+    gsap.to(e.target, { backgroundColor: color, top: "-2vw", duration: 0.4 });
   };
 
   const handleMouseLeave = (e, color) => {
-    gsap.to(e.target, { backgroundColor: "white", top: "0vw", duration: 0.3 });
+    gsap.to(e.target, { backgroundColor: "white", top: "0vw", duration: 0.4 });
   };
 
   return (

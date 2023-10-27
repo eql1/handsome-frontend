@@ -21,7 +21,7 @@ export default function Home() {
         trigger: document.documentElement,
         start: 0,
         end: window.innerHeight,
-        scrub: true,
+        scrub: 0.25,
         onUpdate: (e) => (direction = e.direction * -1),
       },
       x: "-=300px",
